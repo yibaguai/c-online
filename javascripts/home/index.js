@@ -5,6 +5,7 @@ require(["../config"], function(){
 			constructor(){
 				this.cut();
 			}
+			//轮播图
 			cut(){
 				var mySwiper = new Swiper ('.swiper-container', {
 				    loop: true, // 循环模式选项

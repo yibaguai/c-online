@@ -24,8 +24,8 @@ define(["jquery", "url", "loginModal", "registerModal", "bootstrap"],function($,
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav">
-			        <li class="active home"><a href="/index.html">首页 <span class="sr-only">(current)</span></a></li>
-			        <li class="headerPositionBtn"><a style="cursor:pointer;" href="/html/position/position.html">职位管理</a></li>
+			        <li class="active home"><a href="/c-online/index.html">首页 <span class="sr-only">(current)</span></a></li>
+			        <li class="headerPositionBtn"><a href="/c-online/html/position/position.html">职位管理</a></li>
 			      </ul>
 			      <ul class="nav navbar-nav navbar-right not-login">
 			        <li><a href="#" data-target="#loginModal" data-toggle="modal">登录</a></li>
@@ -60,7 +60,7 @@ define(["jquery", "url", "loginModal", "registerModal", "bootstrap"],function($,
 			console.log(111);
 			$.get(logoutUrl, (res) => {
 				sessionStorage.removeItem("loginUser");
-				location.href = "/index.html";
+				location.href = "/c-online/index.html";
 			})
 
 		}
