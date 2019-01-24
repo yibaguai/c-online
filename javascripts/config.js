@@ -1,5 +1,5 @@
 require.config({
-	baseUrl : "/",
+	baseUrl : "/c-online/",
 	paths : {
 		"jquery" : "lib/jquery/jquery-1.12.4.min",
 		"bootstrap" : "lib/bootstrap/js/bootstrap.min",
